@@ -71,7 +71,7 @@ One can alternatively create a [global launcher](http://wiki.ros.org/roslaunch/X
 $ roslaunch prisme_command line.launch
 ```
 
-## Exemples of applications
+## Examples of applications
 A new high-level application node can be written (in Python for instance) and added to the `prisme_command/src` directory. It can read sensor values by subscribing to topics that regularly publish messages and whose list can be obtained from `$ rostopic list`.
 
 This project currently contains three application examples based on the PRisme 3D-printed [base](https://github.com/Robopoly/Printed-base):
